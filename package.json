@@ -1,0 +1,22 @@
+{
+  "name": "pdf_converter",
+  "version": "1.0.0",
+  "description": "convert documents to pdf ",
+  "license": "ISC",
+  "author": "suuna peter",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "node ./test/convert-test.mjs",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "libreoffice-convert": "^1.7.0",
+    "multer": "^2.0.2"
+  },
+  "devDependencies": {
+    "supertest": "^7.1.4"
+  }
+}
